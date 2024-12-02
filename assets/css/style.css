@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+button{
+    background-color:#0166b6;
+    border: none;
+    padding: 15px 25px;
+    color: white;
+    border-radius: 5px;
+}
+.nav-primary{
+    width: 100%;
+    padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-left .logo{
+    width: 120px;
+}
+.nav-primary ul {
+    display: flex;
+    list-style: none;
+    align-items: center
+}
+.nav-primary ul li{
+    padding: 0 10px;
+    
+}
+.nav-primary ul li a{
+    text-decoration:none;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+.nav-primary .nav-right li a svg{
+    width: 20px;
+    margin: 0 5px;
+
+}
+
+
+.nav-secondary{
+    width: 100%;
+    height: 50px;
+    background-color: #0166b6;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.site-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-hero-section{
+    background-color: #eee;
+    padding: 80px 40px;
+    flex: 1;
+    
+}
+.site-wrapper{
+    margin: 50px;
+}
+.primary-btn{
+    background-color:#0166b6;
+    border: none;
+    padding: 15px 25px;
+    color: white;
+    border-radius: 5px;
+}
+.site-wrapper .image-srv{
+    width: 30%;
+}
+.site-wrapper .image-srv img{
+    width: 100%;
+}
+.pricing{
+    background-color: #eee;
+    width: 100%;
+    
+    justify-content: center;
+    padding: 50px 0;
+}
+.pricing p{
+    background-color: #ffb602;
+    display: inline;
+    padding: 5px 8px;
+}
+.pricing h4{
+    font-size: 25px;
+    padding-top: 10px;
+}
+.pricing .card-1{
+    width: 100%;
+    background-color: #fff;
+    padding: 80px 40px;
+    margin: 5px 10px;
+
+
+}
+.soft-images img{
+    
+    width: 40px;
+    margin: 5px;
+    
+
+}
+.main-highlights li{
+   padding: 6px 0;
+}
+.main-highlights li a{
+    color: black;
+    text-decoration: none;
+}
+.logic-box{
+    background-color: greenyellow;
+}
+.explore-microsoft{
+    display: flex;
+    justify-content: center;
+    margin: 24px;
+
+}
+.benifit-cards{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 15px;
+}
+.benifit-card{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    margin: 15px 0;
+}
+.benifit-card img{
+    width: 70px;
+}
+.benifit-cards h6{
+    font-size: 20px;
+    font-weight: 500;
+}
+.benifit-cards p{
+    line-height: 25px;
+}
+.main-footer{
+    background-color: #f2f2f2;
+}
+.main-footer-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+ 
+    
+}
+.main-footer-inner ul li{
+    text-decoration: none;
+    list-style-type: none;
+    margin: 15px;
+}
+
+
+.test{
+    background-color: red;
+}
+
+
+
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .test{
+        background-color: green;
+        font-size: 32px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .test{
+        background-color: orange;
+        font-size: 48px;
+    }
+    .pricing{
+        display: flex;
+    }
+    .pricing .card-1{
+        width: 40%;
+    }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .test{
+        background-color: blue;
+        font-size: 64px;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .test{
+        background-color: black;
+        color: #fff;
+        font-size: 100px;
+    }
+}
+
+
